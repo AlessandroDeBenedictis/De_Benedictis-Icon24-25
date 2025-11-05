@@ -119,7 +119,7 @@ Dataset: `house.csv` - Dati immobiliari con informazioni su vendite di abitazion
 ```
 ICON_24-25_De_Benedictis_Alessandro/
 ├── Model.py              # Logica di ML e preprocessing
-├── ValutaCasa.py         # Interfaccia grafica e predizioni
+├── ImmoValuta.py         # Interfaccia grafica e predizioni
 ├── house.csv             # Dataset originale
 ├── data.csv              # Dataset elaborato
 ├── screen/               # Risorse grafiche
@@ -136,7 +136,7 @@ ICON_24-25_De_Benedictis_Alessandro/
 - Training e valutazione dei modelli
 - Funzioni di supporto per encoding e normalizzazione
 
-#### 2. **ValutaCasa.py** - Interfaccia Utente
+#### 2. **ImmoValuta.py** - Interfaccia Utente
 - GUI sviluppata con Tkinter
 - Input dei dati utente
 - Visualizzazione predizioni
@@ -684,7 +684,7 @@ Assicurarsi che `house.csv` sia nella directory principale
 
 #### 5. Eseguire l'Applicazione
 ```bash
-python ValutaCasa.py
+python ImmoValuta.py
 ```
 
 ### Troubleshooting
